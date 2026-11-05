@@ -1,0 +1,7 @@
+flowchart TD
+    A([User visits login page]) --> B[Enter username & password]
+    B --> C{Credentials valid?}
+    C -- Yes --> D[Generate session token]
+    C -- No --> E[Show error message]
+    E --> B
+    D --> F([Redirect to dashboard])
