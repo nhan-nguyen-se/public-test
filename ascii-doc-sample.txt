@@ -1,0 +1,53 @@
+= My Technical Guide
+John Doe <john@example.com>
+v1.0, 2026-07-31
+:toc:
+:toclevels: 2
+:icons: font
+
+== Introduction
+
+AsciiDoc is a *lightweight markup language* for writing
+documentation, books, and technical guides. It is more
+powerful than Markdown and converts to HTML, PDF, and more.
+
+== Features
+
+=== Writing
+* Bold: *bold text*
+* Italic: _italic text_
+* Monospace: `code text`
+* Highlighted: #highlighted#
+
+=== Code Blocks
+
+[source,javascript]
+----
+const greet = (name) => {
+  console.log(`Hello, ${name}!`);
+};
+greet('World');
+----
+
+=== Tables
+
+|===
+| Name     | Role       | Status
+
+| Alice    | Developer  | Active
+| Bob      | Designer   | Active
+| Carol    | Manager    | Away
+|===
+
+=== Admonitions
+
+NOTE: This is a note admonition.
+
+TIP: Use AsciiDoc for complex documentation.
+
+WARNING: Always back up your data before proceeding.
+
+== Conclusion
+
+AsciiDoc gives you the simplicity of plain text with
+the power of a full documentation system.
