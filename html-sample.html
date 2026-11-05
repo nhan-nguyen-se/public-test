@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyApp — Build faster</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: sans-serif; color: #24292e; }
+
+    /* Nav */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 40px;
+      border-bottom: 1px solid #e1e4e8;
+    }
+    nav .logo { font-weight: bold; font-size: 18px; color: #0075ca; }
+    nav a { text-decoration: none; color: #555; margin-left: 24px; font-size: 14px; }
+
+    /* Hero */
+    .hero {
+      text-align: center;
+      padding: 80px 40px;
+      background: linear-gradient(135deg, #f0f7ff, #ffffff);
+    }
+    .hero h1 { font-size: 36px; margin-bottom: 16px; }
+    .hero p  { font-size: 16px; color: #555; margin-bottom: 32px; }
+    .btn {
+      background: #0075ca;
+      color: #fff;
+      padding: 12px 28px;
+      border: none;
+      border-radius: 6px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    /* Features */
+    .features {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      padding: 60px 40px;
+      background: #f6f8fa;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #e1e4e8;
+      border-radius: 8px;
+      padding: 28px;
+      width: 200px;
+      text-align: center;
+    }
+    .card .icon { font-size: 28px; margin-bottom: 12px; }
+    .card h3   { font-size: 15px; margin-bottom: 8px; }
+    .card p    { font-size: 13px; color: #666; }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 12px;
+      color: #999;
+      border-top: 1px solid #e1e4e8;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <span class="logo">MyApp</span>
+    <div>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Docs</a>
+      <a href="#">Login</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Build faster, ship smarter</h1>
+    <p>The all-in-one platform for modern development teams.</p>
+    <button class="btn">Get started free</button>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <div class="icon">⚡</div>
+      <h3>Fast</h3>
+      <p>Optimized for speed at every layer of the stack.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🔒</div>
+      <h3>Secure</h3>
+      <p>Enterprise-grade security out of the box.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🌍</div>
+      <h3>Global</h3>
+      <p>Deploy to 30+ regions with one click.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 MyApp Inc. All rights reserved.
+  </footer>
+
+</body>
+</html>
